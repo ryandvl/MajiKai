@@ -3,10 +3,14 @@
   "id": "majikai",
   "version": "${version}",
   "name": "MajiKai",
-  "description": "Magic Mod",
-  "authors": [],
-  "contact": {},
-  "license": "All-Rights-Reserved",
+  "description": "Magical Minecraft Mod",
+  "authors": [
+    "ryandvl"
+  ],
+  "contact": {
+    "sources": "https://github.com/ryandvl/MajiKai"
+  },
+  "license": "MIT",
   "icon": "assets/majikai/icon.png",
   "environment": "*",
   "entrypoints": {
@@ -24,5 +28,8 @@
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
     "minecraft": "${minecraft_version}"
+  },
+  "suggests": {
+    "another-mod": "*"
   }
 }

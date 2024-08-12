@@ -6,7 +6,7 @@ public class MajiKaiClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
-    
+
     }
 
 }
