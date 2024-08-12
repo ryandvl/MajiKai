@@ -14,7 +14,7 @@ public class MajiKai implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        LOGGER.info("Loading...");
+        LOGGER.info("Loading Mod...");
 
         itemsController.register();
 
