@@ -5,17 +5,32 @@
   "name": "MajiKai",
   "description": "Magical Minecraft Mod",
   "authors": [
-    "ryandvl"
+    {
+      "name": "ryandvl",
+      "contact": {
+        "homepage": "https://github.com/ryandvl "
+      }
+    }
   ],
   "contact": {
-    "sources": "https://github.com/ryandvl/MajiKai"
+    "homepage": "https://github.com/ryandvl/MajiKai",
+    "sources": "https://github.com/ryandvl/MajiKai",
+    "issues": "https://github.com/ryandvl/MajiKai/issues"
+  },
+  "custom": {
+    "modmenu": {
+      "links" : {
+        "modmenu.discord" : "https://discord.com/invite/Q6DktmANUX",
+        "modmenu.github_releases" : "https://github.com/ryandvl/MajiKai/releases"
+      }
+    }
   },
   "license": "MIT",
   "icon": "assets/majikai/icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
-      "me.ryandvl.majikai.client.MajiKaiClient"
+      "me.ryandvl.majikai.MajiKaiClient"
     ],
     "main": [
       "me.ryandvl.majikai.MajiKai"
